@@ -17,7 +17,7 @@
  <string name="title_activity_export_account">アカウントをエクスポート</string>
  <string name="errormessage_not_nem_compatible_qr">NEMのQRではありません!</string>
  <string name="input_hint_name">名前</string>
- <string name="input_hint_amount">アカウント</string>
+ <string name="input_hint_amount">数量</string>
  <string name="input_hint_message">メッセージ</string>
  <string name="errormessage_failed_to_save_invoice">請求書を保存することができませんでした。</string>
  <string name="errormessage_invoice_not_found">#%1$s の請求書が見つかりません。</string>
