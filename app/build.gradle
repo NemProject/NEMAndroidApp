@@ -63,12 +63,6 @@ android {
     }
 }
 
-retrolambda {
-    jdk System.getenv("JAVA8_HOME")
-    oldJdk System.getenv("JAVA7_HOME")
-    javaVersion JavaVersion.VERSION_1_7
-}
-
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
