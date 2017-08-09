@@ -1,8 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 	<string name="title_activity_create_account">Créer un compte</string>
 	<string name="title_activity_account_list">Comptes</string>
-	<string name="errormessage_account_name_empty">S\'il vous plaît, entrez votre nom</string>
-	<string name="errortext_password_too_short">S\'il vous plaît, entrez un minimum de 6 symboles</string>
+	<string name="errormessage_account_name_empty">Veuillez entrer votre nom</string>
+	<string name="errortext_password_too_short">Veuillez entrer un minimum de 6 caractères</string>
 	<string name="text_error">Erreur</string>
 	<string name="title_activity_import_key">Importer une clef privée</string>
 	<string name="title_activity_scan_qr">Scanner un code QR</string>
