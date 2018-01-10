@@ -3,6 +3,8 @@ package org.nem.nac.ui.activities;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -55,7 +57,9 @@ public final class CreateAccountActivity extends NacBaseActivity {
 		setTitle(_importPrivKey ? R.string.title_activity_import_key : R.string.title_activity_create_account);
 
 		_inputAccName = (EditText)findViewById(R.id.input_account_name);
+		_inputAccName.addTextChangedListener(textWatcher);
 		_inputPrivateKey = ((PrivateKeyInput)findViewById(R.id.input_private_key));
+		_inputPrivateKey.addTextChangedListener(textWatcher);
 		_createAccountConfirm = (Button)findViewById(R.id.btn_create_account_confirm);
 		_createAccountConfirm.setOnClickListener(this::onConfirmAccount);
 		if (_importPrivKey) {
@@ -101,4 +105,23 @@ public final class CreateAccountActivity extends NacBaseActivity {
 		AddressInfoProvider.instance().invalidateLocal();
 		AccountListActivity.start(this);
 	}
+
+		public TextWatcher textWatcher = new TextWatcher() {
+		@Override
+		public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+		}
+
+		@Override
+		public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+		}
+
+		@Override
+		public void afterTextChanged(Editable s) {
+			//Resetting the button state when the user change the text, otherwise the button remain unclickable
+			_createAccountConfirm.setClickable(true);
+		}
+	};
+
 }
