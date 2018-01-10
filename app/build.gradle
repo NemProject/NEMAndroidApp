@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'me.tatarka.retrolambda'
 
 buildscript {
     repositories {
@@ -11,8 +10,9 @@ buildscript {
 }
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion '24.0.2'
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    flavorDimensions "default"
     tasks.whenTaskAdded { task ->
         switch (task.name) {
             case "compileDemoDebugSources":
@@ -30,14 +30,10 @@ android {
     defaultConfig {
         applicationId "org.nem.nac.mainnet"
         minSdkVersion 15
-        targetSdkVersion 22
+        targetSdkVersion 27
         versionCode 1
         versionName versionNameStr
         multiDexEnabled true
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
     }
     buildTypes {
         release {
@@ -61,29 +57,29 @@ android {
     dexOptions {
         jumboMode = true
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
-retrolambda {
-    jdk System.getenv("JAVA8_HOME")
-    oldJdk System.getenv("JAVA7_HOME")
-    javaVersion JavaVersion.VERSION_1_7
-}
+
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:multidex:1.0.2'
     compile 'com.annimon:stream:1.0.5'
     compile 'com.jakewharton.timber:timber:4.1.0'
-    compile 'com.madgag.spongycastle:prov:1.51.0.0'
-    compile 'com.android.support:appcompat-v7:24.2.0'
-    compile 'com.android.support:design:24.2.0'
-    compile 'com.android.support:support-v4:24.2.0'
+    compile 'com.madgag.spongycastle:prov:1.54.0.0'
+    compile 'com.android.support:appcompat-v7:27.0.2'
+    compile 'com.android.support:design:27.0.2'
+    compile 'com.android.support:support-v4:27.0.2'
     compile 'com.google.zxing:core:3.2.1'
     compile 'nl.qbusict:cupboard:2.1.4'
-    compile 'com.squareup.okhttp:okhttp:2.3.0'
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.6.4'
-    compile 'com.madgag.spongycastle:core:1.51.0.0'
+    compile 'com.madgag.spongycastle:core:1.54.0.0'
     compile 'commons-codec:commons-codec:1.10'
     compile 'ch.acra:acra:4.9.0'
     compile 'org.mindrot:jbcrypt:0.3m'
@@ -154,7 +150,7 @@ task buildDemoApp << {
 def setApkName() {
     android.applicationVariants.all { variant ->
         if (variant.buildType.name == "release") {
-            variant.outputs.each { output ->
+            variant.outputs.all { output ->
                 output.outputFile = new File(
                         output.outputFile.parent,
                         output.outputFile.name
