@@ -329,9 +329,9 @@
 	<string name="sign_in">ログイン</string>
 	<string name="fingerprint_description">指紋認証によるログイン</string>
 	<string name="fingerprint_hint">指紋センサー</string>
-	<string name="fingerprint_not_recognized">指紋が読み取れませんでした。もう一度認証してください。</string>
-	<string name="fingerprint_success">指紋を認証しました。</string>
-	<string name="new_fingerprint_enrolled_description">デバイスに新しい指紋が登録されました。再度パスワードを入力してください。</string>
+	<string name="fingerprint_not_recognized">指紋が読み取れませんでした。もう一度認証してください</string>
+	<string name="fingerprint_success">指紋を認証しました</string>
+	<string name="new_fingerprint_enrolled_description">デバイスに新しい指紋が登録されました。再度パスワードを入力してください</string>
 	<string name="use_fingerprint_to_authenticate_title">認証に指紋を使用</string>
-	<string name="login_reg_fingerprint">システムの設定で1つ以上の指紋を登録してください。</string>
+	<string name="login_reg_fingerprint">システムの設定で1つ以上の指紋を登録してください</string>
 </resources>
