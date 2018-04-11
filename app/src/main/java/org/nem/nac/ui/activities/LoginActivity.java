@@ -84,6 +84,7 @@ public final class LoginActivity extends NacBaseActivity {
 			intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
 			intent.putExtra(EXTRA_BOOL_EXIT_ATTEMPT, true);
 			startActivity(intent);
+			finish();
 		}
 	}
 
