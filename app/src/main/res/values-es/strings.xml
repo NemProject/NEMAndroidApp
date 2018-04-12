@@ -320,8 +320,7 @@
 	<string name="label_unconfirmed_date">No confirmado</string>
 	<string name="debug_log_file_deleted">Deleted</string>
 	<string name="debug_hint_report_comment">Comment</string>
-	<string name="poi_symbol">‱</string>
-	<string name="dialog_message_mainnet_warning">This is a beta test version.\nThe NEM team is not responsible for any loss of funds due to testing this app.\nUsers are responsible for their funds and having their private keys backed up.\nDo not use unless you are confident all your funds are securely backed up. We suggest to write down private keys on paper and store it at a safe place. Additionally, you can import your accounts into Lightwallet/NCC/NanoWallet.</string>
+    <string name="dialog_message_mainnet_warning">This is a beta test version.\nThe NEM team is not responsible for any loss of funds due to testing this app.\nUsers are responsible for their funds and having their private keys backed up.\nDo not use unless you are confident all your funds are securely backed up. We suggest to write down private keys on paper and store it at a safe place. Additionally, you can import your accounts into Lightwallet/NCC/NanoWallet.</string>
 	<string name="label_checkbox_confirm_mainnet_warning">I have read and understood this warning and will have my private keys backed up.</string>
 	<string name="dialog_title_mainnet_warning">Warning</string>
 	<!-- for finger print -->

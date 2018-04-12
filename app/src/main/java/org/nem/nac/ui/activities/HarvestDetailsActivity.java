@@ -1,7 +1,6 @@
 package org.nem.nac.ui.activities;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
@@ -37,7 +36,6 @@ public final class HarvestDetailsActivity extends NacBaseActivity {
 	private TextView     _harvestedBlocksLabel;
 	private LinearLayout _blocksList;
 	private AddressValue _address;
-	private TextView     _poiSymbol;
 
 	@Override
 	protected int getActivityTitle() {
@@ -65,20 +63,11 @@ public final class HarvestDetailsActivity extends NacBaseActivity {
 		}
 		//
 		_poiLabel = (TextView)findViewById(R.id.textview_poi);
-		_poiSymbol = (TextView)findViewById(R.id.textview_poi_symbol);
-		//
-		setCustomFontFor(_poiSymbol);
-		//
 		_balanceLabel = (TextView)findViewById(R.id.textview_balance);
 		_vestedBalanceLabel = (TextView)findViewById(R.id.textview_vested_balance);
 		_delegatedHarvestingStatusLabel = (TextView)findViewById(R.id.textview_delegated_harvesting);
 		_blocksList = (LinearLayout)findViewById(R.id.linear_list_blocks);
 		_harvestedBlocksLabel = (TextView)findViewById(R.id.label_harvested_blocks);
-	}
-
-	private void setCustomFontFor(final TextView label) {
-		final Typeface poiFont = Typeface.createFromAsset(getAssets(), "fonts/DejaVuSans.ttf");
-		label.setTypeface(poiFont);
 	}
 
 	@Override
