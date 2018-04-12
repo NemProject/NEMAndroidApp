@@ -320,7 +320,7 @@
 	<string name="label_unconfirmed_date">확인되지 않음</string>
 	<string name="debug_log_file_deleted">삭제되었습니다.</string>
 	<string name="debug_hint_report_comment">코멘트</string>
-    <string name="dialog_message_mainnet_warning">베타 테스트 버전입니다.\nNEM팀은 본 어플리케이션의 테스팅으로 인한 펀드 손실에 대해 어떠한 책임도 지지않습니다..\n사용자는 프라이빗 키와 펀드를 백업을 해두어야 할 책임이 있습니다.\n펀드를 백업시키지 않았다면 본 어플리케이션 사용을 권장하지 않습니다. 프라이빗 키를 종이에 쓴 후 안전한 곳에 보관하십시오. 또는, 라이트월렛/NCC/나노월렛에 저장하여 안전하게 보관하십시오.</string>
+	<string name="dialog_message_mainnet_warning">베타 테스트 버전입니다.\nNEM팀은 본 어플리케이션의 테스팅으로 인한 펀드 손실에 대해 어떠한 책임도 지지않습니다..\n사용자는 프라이빗 키와 펀드를 백업을 해두어야 할 책임이 있습니다.\n펀드를 백업시키지 않았다면 본 어플리케이션 사용을 권장하지 않습니다. 프라이빗 키를 종이에 쓴 후 안전한 곳에 보관하십시오. 또는, 라이트월렛/NCC/나노월렛에 저장하여 안전하게 보관하십시오.</string>
 	<string name="label_checkbox_confirm_mainnet_warning">주의사항을 읽고 이해했으며 프라이빗 키를 백업하겠습니다.</string>
 	<string name="dialog_title_mainnet_warning">주의</string>
 	<!-- for finger print -->

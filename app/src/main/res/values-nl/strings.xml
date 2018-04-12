@@ -320,7 +320,7 @@
 	<string name="label_unconfirmed_date">Onbevestigd</string>
 	<string name="debug_log_file_deleted">Verwijderd</string>
 	<string name="debug_hint_report_comment">Commentaar</string>
-    <string name="dialog_message_mainnet_warning">Dit is een beta-testversie.\nHet NEM team is niet verantwoordelijk voor het verlies van fondsen als gevolg van het testen van deze app.\nGebruikers zijn zelf verantwoordelijk voor hun fondsen en het maken van een back-up van de privé sleutel.\nGebruik deze app niet, tenzij u zeker weet dat al uw fondsen veilig zijn door middel van een back-up. Wij stellen voor om uw privé sleutels op te schrijven op papier en op een veilige plaats te verbergen. Eveneens kan u uw accounts importeren in Lightwallet / NCC / NanoWallet.</string>
+	<string name="dialog_message_mainnet_warning">Dit is een beta-testversie.\nHet NEM team is niet verantwoordelijk voor het verlies van fondsen als gevolg van het testen van deze app.\nGebruikers zijn zelf verantwoordelijk voor hun fondsen en het maken van een back-up van de privé sleutel.\nGebruik deze app niet, tenzij u zeker weet dat al uw fondsen veilig zijn door middel van een back-up. Wij stellen voor om uw privé sleutels op te schrijven op papier en op een veilige plaats te verbergen. Eveneens kan u uw accounts importeren in Lightwallet / NCC / NanoWallet.</string>
 	<string name="label_checkbox_confirm_mainnet_warning">Ik heb de waarschuwing gelezen en begrepen en zorg voor een back-up van mijn privé sleutel.</string>
 	<string name="dialog_title_mainnet_warning">Waarschuwing</string>
 	<!-- for finger print -->

@@ -320,7 +320,7 @@
 	<string name="label_unconfirmed_date">Unbestätigt</string>
 	<string name="debug_log_file_deleted">Gelöscht</string>
 	<string name="debug_hint_report_comment">Kommentar</string>
-    <string name="dialog_message_mainnet_warning">Dies ist Beta-Software.\nDas NEM-Team übernimmt keine Haftung für eventuelle Verluste beim Testen dieser App.\nDer Benutzer ist für sein Vermögen verantwortlich und muss Backups seiner privaten Schlüssel anlegen.\nDie Benutzung ohne Backups ist fahrlässig. Es wird empfohlen die privaten Schlüssel auf Papier aufzuschreiben und an einem sicheren Ort aufzubewahren. Zusätzlich können die Accounts in Lightwallet/NCC/NanoWallet importiert werden.</string>
+	<string name="dialog_message_mainnet_warning">Dies ist Beta-Software.\nDas NEM-Team übernimmt keine Haftung für eventuelle Verluste beim Testen dieser App.\nDer Benutzer ist für sein Vermögen verantwortlich und muss Backups seiner privaten Schlüssel anlegen.\nDie Benutzung ohne Backups ist fahrlässig. Es wird empfohlen die privaten Schlüssel auf Papier aufzuschreiben und an einem sicheren Ort aufzubewahren. Zusätzlich können die Accounts in Lightwallet/NCC/NanoWallet importiert werden.</string>
 	<string name="label_checkbox_confirm_mainnet_warning">Ich habe diese Warnung gelesen und verstanden und werde Backups meiner privaten Schlüssel angelegen.</string>
 	<string name="dialog_title_mainnet_warning">Warnung</string>
 

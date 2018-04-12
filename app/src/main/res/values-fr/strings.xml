@@ -320,7 +320,7 @@
 	<string name="label_unconfirmed_date">Non confirmé</string>
 	<string name="debug_log_file_deleted">Supprimé</string>
 	<string name="debug_hint_report_comment">Commentaire</string>
-    <string name="dialog_message_mainnet_warning">Ceci est une version de test bêta.\nL\'équipe de NEM n\'est pas responsable de toute perte de fonds résultant des tests de cette application.\nLes utilisateurs sont responsables de leurs fonds et de sauvegardées leurs clés privées.\nNe pas pas utiliser sauf si vous êtes sûr que tous vos fonds sont bien sauvegardés. Nous suggérons d\'écrire vos clés privées sur du papier et le ranger dans un endroit sécuritaire. Additionnelement, vous pouvez importer vos comptes en dans le Lightwallet/NCC/NanoWallet.</string>
+	<string name="dialog_message_mainnet_warning">Ceci est une version de test bêta.\nL\'équipe de NEM n\'est pas responsable de toute perte de fonds résultant des tests de cette application.\nLes utilisateurs sont responsables de leurs fonds et de sauvegardées leurs clés privées.\nNe pas pas utiliser sauf si vous êtes sûr que tous vos fonds sont bien sauvegardés. Nous suggérons d\'écrire vos clés privées sur du papier et le ranger dans un endroit sécuritaire. Additionnelement, vous pouvez importer vos comptes en dans le Lightwallet/NCC/NanoWallet.</string>
 	<string name="label_checkbox_confirm_mainnet_warning">Je l\'ai lu et compris cet avertissement et aurai mes clés privées sauvegardées.</string>
 	<string name="dialog_title_mainnet_warning">Avertissement</string>
 	<!-- for finger print -->

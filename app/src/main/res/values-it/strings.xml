@@ -320,7 +320,7 @@
 	<string name="label_unconfirmed_date">Non confermata</string>
 	<string name="debug_log_file_deleted">Cancellato</string>
 	<string name="debug_hint_report_comment">Commento</string>
-    <string name="dialog_message_mainnet_warning">Questo software è in versione beta.\nIl team NEM declina ogni responsabilità per eventuali perdite di fondi causate dall\'utilizzo di questa app.\nGli utenti sono responsabili dei propri fondi e dei propri backup.\nNon utilizzare questa app se non sei sicuro di aver effettuato un backup delle chiavi private; suggeriamo di scriverle su di un foglio di carta da conservare in un luogo sicuro. Inoltre, puoi importare i tuoi account in Lightwallet/NCC/NanoWallet.</string>
+	<string name="dialog_message_mainnet_warning">Questo software è in versione beta.\nIl team NEM declina ogni responsabilità per eventuali perdite di fondi causate dall\'utilizzo di questa app.\nGli utenti sono responsabili dei propri fondi e dei propri backup.\nNon utilizzare questa app se non sei sicuro di aver effettuato un backup delle chiavi private; suggeriamo di scriverle su di un foglio di carta da conservare in un luogo sicuro. Inoltre, puoi importare i tuoi account in Lightwallet/NCC/NanoWallet.</string>
 	<string name="label_checkbox_confirm_mainnet_warning">Ho capito e farò un backup delle mie chiavi private.</string>
 	<string name="dialog_title_mainnet_warning">Attenzione</string>
 	<!-- for finger print -->
