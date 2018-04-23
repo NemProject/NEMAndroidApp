@@ -1,12 +1,8 @@
 apply plugin: 'com.android.application'
-apply plugin: 'me.tatarka.retrolambda'
 
 buildscript {
     repositories {
         mavenCentral()
-    }
-    dependencies {
-        classpath 'me.tatarka:gradle-retrolambda:3.2.5'
     }
 }
 
@@ -23,8 +19,10 @@ android {
              storePassword keystoreProperties['storePassword']
          }
      }  */
-    compileSdkVersion 25
-    buildToolsVersion '25.0.0'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
+    flavorDimensions "default"
     tasks.whenTaskAdded { task ->
         //println("J343 ***************** ---------- *******************"+task.name);
         switch (task.name) {
@@ -50,7 +48,7 @@ android {
     def String versionNameStr = getVersionName()
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 27
         versionCode 104
         versionName versionNameStr
         multiDexEnabled true
@@ -127,15 +125,6 @@ android {
 String java8 = getJavaVersion(8)
 String java7 = getJavaVersion(7)
 
-retrolambda {
-    javaVersion JavaVersion.VERSION_1_7
-
-    println("J343 ***************** ---------- *******************")
-    println("J343 JAVA8_HOME: " + java8)
-    println("J343 JAVA7_HOME: " + java7)
-    println("J343 ***************** ---------- *******************")
-}
-
 String getJavaVersion(Integer v) {
     def sout = new StringBuffer()
     def proc = "/usr/libexec/java_home -v 1.$v".execute()
@@ -147,18 +136,18 @@ String getJavaVersion(Integer v) {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:multidex:1.0.3'
     compile 'com.annimon:stream:1.0.5'
     compile 'com.jakewharton.timber:timber:4.1.0'
-    compile 'com.madgag.spongycastle:prov:1.51.0.0'
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support:design:25.3.1'
-    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.madgag.spongycastle:prov:1.54.0.0'
+    compile 'com.android.support:appcompat-v7:27.1.1'
+    compile 'com.android.support:design:27.1.1'
+    compile 'com.android.support:support-v4:27.1.1'
     compile 'com.google.zxing:core:3.2.1'
     compile 'nl.qbusict:cupboard:2.1.4'
-    compile 'com.squareup.okhttp:okhttp:2.3.0'
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.6.4'
-    compile 'com.madgag.spongycastle:core:1.51.0.0'
+    compile 'com.madgag.spongycastle:core:1.54.0.0'
     compile 'commons-codec:commons-codec:1.10'
     compile 'ch.acra:acra:4.9.0'
     compile 'org.mindrot:jbcrypt:0.3m'
@@ -229,12 +218,8 @@ task build_testnetApp <<{
 def setApkName() {
     android.applicationVariants.all { variant ->
         if (variant.buildType.name == "release") {
-            variant.outputs.each { output ->
-                output.outputFile = new File(
-                        output.outputFile.parent,
-                        output.outputFile.name
-                                .replace("app-", "NEM")
-                                .replace(".apk", "_v${android.defaultConfig.versionName}.apk"))
+            variant.outputs.all { output ->
+                outputFileName = "NEM_v${android.defaultConfig.versionName}.apk"
             }
         }
     }
