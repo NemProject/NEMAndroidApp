@@ -75,7 +75,7 @@ public final class QrTabsActivity extends NacBaseActivity {
 			return;
 		}
 		//
-		_viewPager = (ViewPager)findViewById(R.id.viewpager);
+		_viewPager = findViewById(R.id.viewpager);
 		//
 		_adapter = new ViewPagerAdapter(getSupportFragmentManager());
 		_adapter.addFragment(MyInfoFragment.create(account.get()), getString(R.string.title_fragment_my_info));
