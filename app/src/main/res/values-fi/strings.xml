@@ -320,7 +320,6 @@
 	<string name="label_unconfirmed_date">Vahvistamaton</string>
 	<string name="debug_log_file_deleted">Poistettu</string>
 	<string name="debug_hint_report_comment">Kommentti</string>
-	<string name="poi_symbol">‱</string>
 	<string name="dialog_message_mainnet_warning">Tämä on beta testiversio.\nNEM tiimi ei ole vastuussa mihinkään varojen menetykseen sovellustestin aikana.\nKäyttäjät vastaavat varoistaan ja tekevät varmuuskopioinnit private key:stä.\nÄlä käytä ellet ole vakuuttunut kaikkien varojesi varmuuskopioista. Suosittelemme kirjoittamaan private key:si paperille ja säilyttämään turvallisessa paikassa. Lisäksi, voit tuoda tilisi Lightwallet/NCC/NanoWallet.</string>
 	<string name="label_checkbox_confirm_mainnet_warning">Olen lukenut ja ymmärtänyt tämän varoituksen ja varmuuskopioin private key:ni.</string>
 	<string name="dialog_title_mainnet_warning">Varoitus</string>

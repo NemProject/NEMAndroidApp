@@ -320,7 +320,6 @@
 	<string name="label_unconfirmed_date">未确认日期</string>
 	<string name="debug_log_file_deleted">已删除</string>
 	<string name="debug_hint_report_comment">注解</string>
-	<string name="poi_symbol">‱</string>
 	<string name="dialog_message_mainnet_warning">当前版本是Beta测试版。\nNEM团队对任何资金的丢失不负有责任。\n用户需知晓风险并备份一切有资金的账户。\n在确认备份妥当之前不要使用。我们推荐抄下私钥并放置在安全保管设施中。您也可以将账户导入至NCC中异机保管。</string>
 	<string name="label_checkbox_confirm_mainnet_warning">我已阅读和知晓以上警告并已将做好私钥备份</string>
 	<string name="dialog_title_mainnet_warning">警告</string>

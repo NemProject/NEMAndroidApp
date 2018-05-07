@@ -320,7 +320,6 @@
 	<string name="label_unconfirmed_date">Niepotwierdzone</string>
 	<string name="debug_log_file_deleted">Usunięty</string>
 	<string name="debug_hint_report_comment">Komentarz</string>
-	<string name="poi_symbol">‱</string>
 	<string name="dialog_message_mainnet_warning">To jest testowa wersja beta.\nZespół NEM nie ponosi odpowiedzialności za jakiekolwiek straty funduszy ze względu na testowanie aplikacji.\nUżytkownicy są odpowiedzialni za swoje fundusze i zabezpieczenie kluczy prywatnych.\nNie używaj aplikacji, chyba że masz pewność, że wszystkie fundusze są zabezpieczone. Proponujemy zapisać klucze prywatne na papierze i przechowywać je w bezpiecznym miejscu. Dodatkowo można importować konto do portfela Lightwallet/NCC/NanoWallet.</string>
 	<string name="label_checkbox_confirm_mainnet_warning">Przeczytałem i zrozumiałem to ostrzeżenie, i zarchiwizuję moje klucze prywatne.</string>
 	<string name="dialog_title_mainnet_warning">Ostrzeżenie</string>

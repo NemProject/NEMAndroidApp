@@ -321,7 +321,6 @@
 	<string name="label_unconfirmed_date">未確認</string>
 	<string name="debug_log_file_deleted">削除しました</string>
 	<string name="debug_hint_report_comment">コメント</string>
-	<string name="poi_symbol">‱</string>
 	<string name="dialog_message_mainnet_warning">このソフトウェアはベータ版です。\nNEMチームはこのソフトウェアを使用して発生した損害について責任を負いません。\nプライベートキー(秘密鍵)や残高はユーザの責任のもと管理することとし、適切にバックアップを行った上でご利用ください。プライベートキー(秘密鍵)は紙や安全な場所に保管しておくことをお勧めします。また、アカウント情報をLightwalletやNCCにインポートすることもできます。</string>
 	<string name="label_checkbox_confirm_mainnet_warning">注意事項を理解し、プライベートキー(秘密鍵)をバックアップすることに了解しました</string>
 	<string name="dialog_title_mainnet_warning">ご注意</string>

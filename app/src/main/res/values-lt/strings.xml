@@ -320,7 +320,6 @@
 	<string name="label_unconfirmed_date">Nepatvirtinta</string>
 	<string name="debug_log_file_deleted">Pašalinta</string>
 	<string name="debug_hint_report_comment">Komentaras</string>
-	<string name="poi_symbol">‱</string>
 	<string name="dialog_message_mainnet_warning">Ši versija yra beta testinė versija.\nNEM komanda neatsako, jei bus prarastos lėšos, nes aplikacija vis dar testuojama.\nNaudotojai atsako už savo lėšas ir privalo saugiai laikyti savo privatų raktą.\nNenaudokite aplikacijos, jei neesate įsitikinę, kad lėšos yra saugiai laikomos. Mes siūlome saugoti privatų raktą užrašytą ant popieriaus ir laikyti jį saugioje vietoje. Papildomai, Jūs galite importuoti savo sąskaitas į Lightwallet/NCC/NanoWallet.</string>
 	<string name="label_checkbox_confirm_mainnet_warning">Aš perskaičiau ir supratau šį įspėjimą ir turiu išsaugojęs privačius raktus.</string>
 	<string name="dialog_title_mainnet_warning">Įspėjimas</string>
