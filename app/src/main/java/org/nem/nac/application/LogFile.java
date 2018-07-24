@@ -12,11 +12,15 @@ public class LogFile {
 	private static LogFile _instance;
 
 	public static LogFile instance() {
-		if (_instance == null) {
-			_instance = new LogFile();
+			if (_instance == null) {
+			synchronized (LogFile.class) {
+				if (_instance == null){
+				_instance = new LogFile();
+				}
+			}
 		}
-		return _instance;
-	}
+	return _instance;
+       }
 
 	private final File _logFile;
 
